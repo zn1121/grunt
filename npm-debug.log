@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/bin/npm', 'i', 'grunt-contrib-less', 'grunt' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData grunt-contrib-less
+8 silly fetchPackageMetaData grunt
+9 silly fetchNamedPackageData grunt-contrib-less
+10 silly mapToRegistry name grunt-contrib-less
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'grunt-contrib-less',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'grunt-contrib-less',
+13 silly mapToRegistry   name: 'grunt-contrib-less',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-less
+15 silly fetchNamedPackageData grunt
+16 silly mapToRegistry name grunt
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'grunt',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'grunt',
+19 silly mapToRegistry   name: 'grunt',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/grunt
+21 verbose request uri https://registry.npmjs.org/grunt-contrib-less
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 16:38:40
+24 verbose request id e4d35b461ce5a2db
+25 http request GET https://registry.npmjs.org/grunt-contrib-less
+26 verbose request uri https://registry.npmjs.org/grunt
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 16:38:41
+29 verbose etag W/"73cb2afabb1c1f10749849b3e2501aa4"
+30 verbose lastModified Fri, 04 Jan 2019 00:45:29 GMT
+31 http request GET https://registry.npmjs.org/grunt
+32 http 304 https://registry.npmjs.org/grunt
+33 verbose headers { date: 'Tue, 12 Mar 2019 08:38:41 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie': [ '__cfduid=da572948f180859969ee4b219f56afd931552379921; expires=Wed, 11-Mar-20 08:38:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-ray': '4b64740f5d7ab1ee-HKG',
+33 verbose headers   etag: '"73cb2afabb1c1f10749849b3e2501aa4"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Fri, 04 Jan 2019 00:45:29 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'x-amz-meta-rev': '1480-51004024d1e48c849f0192fdb9e465e5',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Tue, 12 Mar 2019 08:38:41 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie': [ '__cfduid=da572948f180859969ee4b219f56afd931552379921; expires=Wed, 11-Mar-20 08:38:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-ray': '4b64740f5d7ab1ee-HKG',
+34 silly get     etag: '"73cb2afabb1c1f10749849b3e2501aa4"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Fri, 04 Jan 2019 00:45:29 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'x-amz-meta-rev': '1480-51004024d1e48c849f0192fdb9e465e5',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/grunt from cache
+36 verbose get saving grunt to /root/.npm/registry.npmjs.org/grunt/.cache.json
+37 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+38 http 200 https://registry.npmjs.org/grunt-contrib-less
+39 verbose headers { date: 'Tue, 12 Mar 2019 08:38:43 GMT',
+39 verbose headers   'content-type': 'application/json; charset=UTF-8',
+39 verbose headers   'transfer-encoding': 'chunked',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'set-cookie': [ '__cfduid=dc6f0e697c4140320a194e10a16b649cd1552379923; expires=Wed, 11-Mar-20 08:38:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+39 verbose headers   'cf-cache-status': 'HIT',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'cf-ray': '4b64741a48e5b12e-HKG',
+39 verbose headers   etag: 'W/"6b47e1d4ed71df363c9051b1ba624217"',
+39 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 verbose headers   'last-modified': 'Sun, 27 May 2018 02:52:17 GMT',
+39 verbose headers   vary: 'accept-encoding, accept',
+39 verbose headers   server: 'cloudflare',
+39 verbose headers   'content-encoding': 'gzip' }
+40 silly get cb [ 200,
+40 silly get   { date: 'Tue, 12 Mar 2019 08:38:43 GMT',
+40 silly get     'content-type': 'application/json; charset=UTF-8',
+40 silly get     'transfer-encoding': 'chunked',
+40 silly get     connection: 'keep-alive',
+40 silly get     'set-cookie': [ '__cfduid=dc6f0e697c4140320a194e10a16b649cd1552379923; expires=Wed, 11-Mar-20 08:38:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+40 silly get     'cf-cache-status': 'HIT',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     'cf-ray': '4b64741a48e5b12e-HKG',
+40 silly get     etag: 'W/"6b47e1d4ed71df363c9051b1ba624217"',
+40 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+40 silly get     'last-modified': 'Sun, 27 May 2018 02:52:17 GMT',
+40 silly get     vary: 'accept-encoding, accept',
+40 silly get     server: 'cloudflare',
+40 silly get     'content-encoding': 'gzip' } ]
+41 verbose get saving grunt-contrib-less to /root/.npm/registry.npmjs.org/grunt-contrib-less/.cache.json
+42 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+43 silly install normalizeTree
+44 silly loadCurrentTree Finishing
+45 silly loadIdealTree Starting
+46 silly install loadIdealTree
+47 silly cloneCurrentTree Starting
+48 silly install cloneCurrentTreeToIdealTree
+49 silly cloneCurrentTree Finishing
+50 silly loadShrinkwrap Starting
+51 silly install loadShrinkwrap
+52 silly loadShrinkwrap Finishing
+53 silly loadAllDepsIntoIdealTree Starting
+54 silly install loadAllDepsIntoIdealTree
+55 silly rollbackFailedOptional Starting
+56 silly rollbackFailedOptional Finishing
+57 silly runTopLevelLifecycles Finishing
+58 silly install printInstalled
+59 verbose stack Error: Refusing to install grunt as a dependency of itself
+59 verbose stack     at checkSelf (/usr/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+59 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+59 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+59 verbose stack     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+59 verbose stack     at /usr/lib/node_modules/npm/lib/install/validate-args.js:16:5
+59 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+59 verbose stack     at Array.forEach (native)
+59 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+59 verbose stack     at Array.forEach (native)
+59 verbose stack     at asyncMap (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+60 verbose cwd /home/wangding/grunt-demo/grunt
+61 error Linux 3.10.0-514.el7.x86_64
+62 error argv "/usr/bin/node" "/bin/npm" "i" "grunt-contrib-less" "grunt"
+63 error node v6.10.1
+64 error npm  v3.10.10
+65 error code ENOSELF
+66 error Refusing to install grunt as a dependency of itself
+67 error If you need help, you may report this error at:
+67 error     <https://github.com/npm/npm/issues>
+68 verbose exit [ 1, true ]
