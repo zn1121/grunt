@@ -1,0 +1,22 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zn1121/grunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zn1121/grunt/issues"
+  },
+  "homepage": "https://github.com/zn1121/grunt#readme",
+  "dependencies": {
+    "grunt-contrib-csslint": "^2.0.0"
+  }
+}
