@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zn1121/grunt#readme",
   "devDependencies": {
+    "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.0.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-eslint": "^21.0.0",

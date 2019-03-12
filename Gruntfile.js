@@ -1,18 +1,25 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    htmlmin: {
-      dev: {                                       // Another target
-        files: {
-                  'dist/index.html': './index.html',
-        }
-      }          
+    cssmin: {
+      options: {
+            mergeIntoShorthands: false,
+      roundingPrecision: -1
+      
+      },
+      target: {
+
+      files: {
+            'dist/index.css': ['foo.css', 'bar.css']
+      }
+             
+  }
     }
             
   });
 
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', ['htmlmin']);
+    grunt.registerTask('default', ['cssmin']);
     
 };
 
