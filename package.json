@@ -1,8 +1,8 @@
 {
   "name": "grunt",
   "version": "1.0.0",
-  "description": "插件",
-  "main": "Gruntfile.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
     "url": "https://github.com/zn1121/grunt/issues"
   },
   "homepage": "https://github.com/zn1121/grunt#readme",
-  "dependencies": {
-    "grunt-contrib-less": "^2.0.0"
+  "devDependencies": {
+    "grunt-htmlhint": "^0.9.13"
   }
 }
