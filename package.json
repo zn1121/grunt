@@ -1,0 +1,24 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "插件",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zn1121/grunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zn1121/grunt/issues"
+  },
+  "homepage": "https://github.com/zn1121/grunt#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "grunt-mocha-cli": "^4.0.0",
+    "grunt-run": "^0.8.1"
+  }
+}
